@@ -145,10 +145,10 @@ var ReactTags = _react2.default.createClass({
     }
   },
   handleKeyDown: function handleKeyDown(e) {
-    var _state = this.state;
-    var query = _state.query;
-    var selectedIndex = _state.selectedIndex;
-    var suggestions = _state.suggestions;
+    var _state = this.state,
+        query = _state.query,
+        selectedIndex = _state.selectedIndex,
+        suggestions = _state.suggestions;
 
     // hide suggestions menu on escape
 
